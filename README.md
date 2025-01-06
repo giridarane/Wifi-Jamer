@@ -19,3 +19,15 @@ The tool works by exploiting the deauthentication mechanism in the IEEE 802.11 W
 
    pip install -r requirements.txt
 
+You will be prompted to input:
+
+The target MAC address (e.g., 00:11:22:33:44:55).
+Your wireless interface (e.g., wlan0).
+The number of deauth packets to send.
+The interval between sending the packets.
+The script will then start sending deauth packets to the target device.
+
+Disclaimer
+This tool is intended for educational and ethical hacking purposes only. Never use this tool on networks or devices you do not own or have explicit permission to test. Misuse of this tool can lead to legal consequences.
+
+The author is not responsible for any damages or legal actions resulting from the use of this tool. Always follow ethical guidelines and obtain the necessary permissions before conducting any tests.
